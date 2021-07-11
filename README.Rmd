@@ -40,6 +40,18 @@ This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
 library(clusterpin)
-## basic example code
+cluster_questions_df <- rio::import("/Users/mac/Downloads/PIN_HNO_Indicators_Testing.xlsx",sheet="Wash Thresholds")
+
+
+pin_code_generator(cluster_questions_df = cluster_questions_df,
+                   cluster_name= "wash",
+                   col_name_indicator = "Indicator 2021",
+                   col_name_severity_1 = "SEVERITY 1" ,
+                   col_name_severity_2 = "SEVERITY 2" ,
+                   col_name_severity_3 = "SEVERITY 3" ,
+                   col_name_severity_4 = "SEVERITY 4" ,
+                   col_name_severity_5 = "SEVERITY 5" 
+                   )
+
 ```
 

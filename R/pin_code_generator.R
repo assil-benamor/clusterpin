@@ -69,6 +69,6 @@ pin_code_generator <- function(cluster_questions_df,cluster_name,col_name_indica
 
   y <- paste(x,sep = '\n')
 
-  clipr::write_clip(y)
+  clipr::write_clip(y,allow_non_interactive = TRUE)
 
 }
