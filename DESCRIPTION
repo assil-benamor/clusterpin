@@ -1,0 +1,19 @@
+Package: clusterpin
+Type: Package
+Title: Generate R code for clustes' pin calculation
+Version: 0.1.0
+Author: Assil Ben Amor
+Maintainer: Assil Ben Amor <assil.benamor@reach-initiative.org>
+Description: A set of functions to speed up the PiNs calculation process.
+    R code generator.
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+License: MIT + file LICENSE
+Imports: 
+    stringr,
+    dplyr,
+    clipr
+RoxygenNote: 7.1.1

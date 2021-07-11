@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(stringr, str_replace_all)
+import(dplyr)
+import(clipr)
+export(pin_code_generator)
